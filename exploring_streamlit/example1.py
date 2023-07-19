@@ -43,6 +43,16 @@ plt.xlabel(selected_feature)
 plt.ylabel(selected_feature_2)
 st.pyplot()
 
+# Show Line chart
+# Sample data
+data_for_line_chart = pd.DataFrame({
+    'x': [1, 2, 3, 4, 5],
+    'y': [10, 5, 12, 8, 3]
+})
+
+# Create a line chart using st.line_chart()
+st.line_chart(data_for_line_chart['y'])
+
 # Show a data table
 st.subheader("Data Table:")
 st.write(df)
