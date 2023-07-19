@@ -1,0 +1,12 @@
+# Local Mac files
+.DS_Store
+
+#vscode config files
+.vscode/
+
+# Intellij config files
+.idea/
+*.iml
+
+# Local configuration
+local.json

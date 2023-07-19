@@ -39,3 +39,17 @@ You can now view your Streamlit app in your browser.
 Local URL: http://localhost:8501
 Network URL: http://192.168.1.146:8501
 ```
+
+## Container based approach
+Another way to run this application is by using containers, just execute below script to run the examples: 
+``` shell
+  sh ./launch_script.sh
+```
+Running above script, will do the following:
+
+ - Build docker image
+ - Run the containers from this image 
+ - Optionally tag and store image in your container registry.
+ - Open below links: </br>
+ (1) http://localhost:8501 </br>
+ (2) http://localhost:8502
