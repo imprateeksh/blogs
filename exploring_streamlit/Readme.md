@@ -50,6 +50,4 @@ Running above script, will do the following:
  - Build docker image
  - Run the containers from this image 
  - Optionally tag and store image in your container registry.
- - Open below links: </br>
- (1) http://localhost:8501 </br>
- (2) http://localhost:8502
+ - Open this link: http://localhost:8501 </br>
