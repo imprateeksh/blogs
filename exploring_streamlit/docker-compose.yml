@@ -1,0 +1,16 @@
+version: "3"
+services:
+  app1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    command: python /app/example1.py --port 8501
+  app2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8502:8502"
+    command: python /app/example2.py --port 8502
